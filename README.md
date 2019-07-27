@@ -1,4 +1,4 @@
-# K-means-Algorithm
+# K-means Algorithm
 This is a repository to display my own personally built K-means algorithm!  The **K-means.py** file in this repository contains functions that go through the mathimatics and plots of the steps for the K-means machine learning algorithm. 
 
 These steps include:
