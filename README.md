@@ -16,3 +16,4 @@ The second and third step of this process is repeated until the centroid coordin
 ![image](images/Iteration2.png)
 
 ![image](images/Iteration3.png)
+
