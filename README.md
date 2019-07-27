@@ -1,5 +1,7 @@
 # K-means-Algorithm
-This is a repository to display my own personally built K-means algorithm!  The **K-means.py** file in this repository contains functions that go through the mathimatics and plots of the steps for the K-means machine learning algorithm. These steps include:
+This is a repository to display my own personally built K-means algorithm!  The **K-means.py** file in this repository contains functions that go through the mathimatics and plots of the steps for the K-means machine learning algorithm. 
+
+These steps include:
 
 1. Setting the initial randomized coordinates for a predefined k number of centroids
 
