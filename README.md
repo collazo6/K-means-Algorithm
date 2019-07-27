@@ -11,9 +11,9 @@ These steps include:
 
 The second and third step of this process is repeated until the centroid coordinates are no longer changing, signifying that the algorithm has arrived to it's conclusion on its assignments for the k clusters.
 
-![image](images/Iteration1.png)
+![image](images/K-means_Iteration1.png)
 
-![image](images/Iteration2.png)
+![image](images/K-means_Iteration2.png)
 
-![image](images/Iteration3.png)
+![image](images/K-means_Iteration3.png)
 
