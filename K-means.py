@@ -4,6 +4,7 @@ import matplotlib.cm as cm
 import numpy as np
 import random
 import math
+import sys
 import pdb
 
 
@@ -25,6 +26,11 @@ def k_means(P, k):
     #create array of distinct colors for k clusters
     rainbow = cm.get_cmap('rainbow')
     colors = rainbow(np.linspace(0, 1, k))
+    
+    #catch edge case, k is equal to 0
+    if k <= 0:
+        print("K must be greater than 0.  Please enter a valid value for k.")
+        sys.exit()
     
     #if k is equal to or larger than the number of points available, make each point its own cluster
     if len(P) <= k:
