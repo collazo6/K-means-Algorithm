@@ -122,13 +122,13 @@ def print_info(assignments, k):
     print("\t\033[90mcluster_id\tpoints\033[00m\n")
 
     for i, val in enumerate(list(assignments.values())):
-        print("\t{}\t\t{}\n".format(i, str(val).strip('[]')))
+        print("\t{}\t\t{}\n".format(i + 1, str(val).strip('[]')))
 
     print("\n\033[93mThe coordinates for the {} centroids were as follows:\033[00m\n".format(k))
     print("\t\033[90mcluster_id\tcentroid_coordinates\033[00m\n")
 
     for i, centroid in enumerate(list(assignments.keys())):
-        print("\t{}\t\t{}\n".format(i, centroid))
+        print("\t{}\t\t{}\n".format(i + 1, centroid))
 
 
 
