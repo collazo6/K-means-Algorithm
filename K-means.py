@@ -141,5 +141,9 @@ if __name__ == '__main__':
     P = [(1,2), (2,3), (8, 10), (5, 6), (4, -1), (10, 4), (3,4), (-1, -10), (-10,1)]
 
     assignments, centroids = k_means(P, k)
+    
+    #normalize value of k if it exceeds the number of points available
+    if k > len(P):
+        k = len(P)
 
     print_info(assignments, k)
