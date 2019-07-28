@@ -134,10 +134,10 @@ def print_info(assignments, k):
 
 if __name__ == '__main__':
     
-    #Initialize the integer number of clusters desired, k
+    #initialize the integer number of clusters desired, k
     k = 4
     
-    #Initialize coordinates of all points to take part in K-means clustering
+    #initialize coordinates of all points to take part in K-means clustering
     P = [(1,2), (2,3), (8, 10), (5, 6), (4, -1), (10, 4), (3,4), (-1, -10), (-10,1)]
 
     assignments, centroids = k_means(P, k)
