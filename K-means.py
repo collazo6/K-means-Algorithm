@@ -33,7 +33,7 @@ def k_means(P, k):
         for x, y in P:
             assignments[(x, y)].append((x, y))
 
-        plot(assignments, len(P), colors, iter_num)
+        plot(assignments, colors, iter_num)
         return assignments, P
 
     #ensure that the number of clusters is equal to k
